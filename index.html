@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Tronos</title>
+    <style>
+        body {
+            background-color: #0d0d0d;
+            color: #f4f4f4;
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-image: url('https://example.com/got_banner.jpg');
+            background-size: cover;
+            text-align: center;
+            padding: 100px;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 4em;
+            letter-spacing: 5px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #1c1c1c;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 20px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        nav a:hover {
+            color: #d4af37;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-around;
+            margin: 50px 0;
+        }
+
+        .house {
+            text-align: center;
+            width: 30%;
+        }
+
+        .house img {
+            width: 100%;
+            border: 3px solid #444;
+            border-radius: 10px;
+        }
+
+        .house h2 {
+            margin-top: 15px;
+            color: #d4af37;
+        }
+
+        footer {
+            background-color: #1c1c1c;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+
+        footer p {
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Juego de Tronos</h1>
+</header>
+
+<nav>
+    <a href="#stark">Casa Stark</a>
+    <a href="#lannister">Casa Lannister</a>
+    <a href="#targaryen">Casa Targaryen</a>
+</nav>
+
+<div class="content">
+    <div class="house" id="stark">
+        <img src="https://example.com/stark.jpg" alt="Casa Stark">
+        <h2>Casa Stark</h2>
+        <p>"Se acerca el invierno"</p>
+    </div>
+    <div class="house" id="lannister">
+        <img src="https://example.com/lannister.jpg" alt="Casa Lannister">
+        <h2>Casa Lannister</h2>
+        <p>"Oye mi rugido"</p>
+    </div>
+    <div class="house" id="targaryen">
+        <img src="https://example.com/targaryen.jpg" alt="Casa Targaryen">
+        <h2>Casa Targaryen</h2>
+        <p>"Fuego y sangre"</p>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Juego de Tronos | Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
